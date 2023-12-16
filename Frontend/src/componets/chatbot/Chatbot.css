@@ -1,0 +1,23 @@
+@import url('/src/index.css');
+
+.chatbox_ctn{
+    background-color: var(--color-light-blue);
+    width: 100%;
+}
+
+.header_ctn{
+    width: 30VW;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-blue);
+}
+
+.header_ctn p{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+    text-transform: uppercase;
+}
